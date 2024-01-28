@@ -1,0 +1,32 @@
+.hero-section{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.device{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+}
+
+@media (width >  700px) {
+    .device{
+        width: 50%;
+        margin: auto;
+    }
+    button{
+        width: 50% !important;
+        
+    }
+    .w-md-50{
+        width: 50% !important;
+    }
+}
+
+p,h1,h4,li{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size:14.5px ;
+}
